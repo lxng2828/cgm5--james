@@ -1,0 +1,7 @@
+.App {
+  /* We can leave this empty or add global styles that don't constrain width */
+  background-color: #f0f2f5; /* Keep the background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
