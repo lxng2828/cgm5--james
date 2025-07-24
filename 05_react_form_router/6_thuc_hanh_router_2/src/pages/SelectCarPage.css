@@ -1,0 +1,65 @@
+.select-car-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.select-car-container h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.select-car-container .form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.select-car-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.select-car-container select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 1em;
+    appearance: none;
+    background-color: white;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007bff%22%20d%3D%22M287%2C118.8H5.4c-6.8%2C0-10.2%2C8.1-6.8%2C13.2l134.1%2C165.7c3.4%2C4.2%2C10.9%2C4.2%2C14.3%2C0l134.1-165.7C297.2%2C126.9%2C293.8%2C118.8%2C287%2C118.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    background-size: 0.8em auto;
+    cursor: pointer;
+}
+
+.select-car-container select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.select-car-container .select-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.select-car-container .select-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
