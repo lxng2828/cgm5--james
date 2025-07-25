@@ -5,9 +5,21 @@ import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
-    <div style={{ paddingTop: '50px', paddingBottom: '50px' }}>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      minHeight: '100vh'
+    }}>
       <Navbar />
-      <AppRoutes />
+
+      <main style={{
+        flexGrow: 1,
+        paddingTop: '50px',
+        paddingBottom: '50px'
+      }}>
+        <AppRoutes />
+      </main>
+
       <Footer />
     </div>
   );

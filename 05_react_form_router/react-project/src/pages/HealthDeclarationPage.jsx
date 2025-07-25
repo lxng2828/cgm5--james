@@ -1,1 +1,0 @@
-import React from 'react'; export default function HealthDeclarationPage() { return <h1>Health Declaration Page</h1>; }
